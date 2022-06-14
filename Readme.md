@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Кристина Магер](https://up.htmlacademy.ru/htmlcss/34/user/1418235).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
