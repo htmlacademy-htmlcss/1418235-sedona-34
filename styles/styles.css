@@ -18,8 +18,12 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background: #ffffff;
+  background: #f2f2f2;
   color: #000000;
+}
+
+.page-header {
+  background-color: #ffffff;
 }
 
 .navigation-link {
@@ -37,16 +41,29 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #756157;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.button-blue {
+  background: #82B3D3;
+}
+
+.button-green {
+  background: #7DB54F;
 }
 
 .promo {
   background-image: url(../images/index-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #4186d3;
+}
+
+.about-sedona {
+  background-color: #ffffff;
 }
 
 .main-index-title {
@@ -67,10 +84,11 @@ body {
 
 .advantages-list {
   text-align: center;
+  background-color: #ffffff;
 }
 
-.advantages-white {
-  background: #82B3D3;
+.advantages-reasons {
+  background: #82b3d3;
 }
 
 .advantages-title {
@@ -92,10 +110,28 @@ body {
   color: #333333;
 }
 
-.advantages-title-white,
-.advantages-number-white,
-.advantages-description-white {
-  color: #FFFFFF;
+.advantages-title-reasons {
+  color: #ffffff;
+}
+
+.advantages-number-reasons {
+  color: #ffffff;
+}
+
+.advantages-description-reasons {
+  color: #ffffff;
+}
+
+.advantages-item-opacity {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-opacity-dark {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.booking {
+  background-color: #ffffff;
 }
 
 .booking-title {
@@ -118,6 +154,7 @@ body {
   background-image: url(../images/background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #4186d3;
 }
 
 .subscribe-title {
@@ -126,7 +163,7 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscribe-description {
@@ -134,7 +171,11 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.page-footer {
+  background-color: #ffffff;
 }
 
 .footer-contacts-phone {
@@ -152,21 +193,20 @@ body {
   background-image: url(../images/catalog/catalog-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #4186d3;
 }
 
 .inner-header-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .breadcrumbs {
   font-weight: 400;
   font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .breadcrumbs-link {
@@ -178,7 +218,11 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.catalog-products {
+  background-color: #ffffff;
 }
 
 .catalog-products-description {
@@ -199,8 +243,17 @@ body {
   color: #000000;
 }
 
-.product-card-description,
+.product-card-description {
+  font-weight: 400;
+  color: #333333;
+}
+
 .product-card-price {
+  font-weight: 400;
+  color: #333333;
+}
+
+.product-card-raiting {
   font-weight: 400;
   color: #333333;
 }
@@ -215,18 +268,23 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background: #82B3D3;
+  color: #ffffff;
+  background: #82b3d3;
   text-decoration: none;
 }
 
 .pagination-current {
-  background: #F2F2F2;
+  background: #f2f2f2;
   color: #000000;
 }
 
+.pagination-description {
+  font-weight: 400;
+  color: #333333;
+}
+
 .subscribe-catalog {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .subscribe-catalog-title {
